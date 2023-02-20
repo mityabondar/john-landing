@@ -65,7 +65,7 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/assets/styles.css -o ./dist/assets/styles.css --watch"
+    "dev": "npx tailwindcss -i ./src/assets/styles.css -o ./assets/styles.css --watch"
   },
   "keywords": [],
   "author": "",
