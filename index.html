@@ -14,12 +14,12 @@
   <div class="global-wrapper">
     <header class="header">
       <div class="container mx-auto px-4">
-        <div class="header-top flex items-center justify-between pt-4 pb-4">
+        <div class="header-top flex flex-col md:flex-row items-center justify-center md:justify-between pt-4 pb-4">
           <a href="/john-landing/" class="logo uppercase font-bold text-2xl">
             Фулфилмент
           </a>
-          <div class="contacts">
-            <div class="phone flex items-center gap-3 justify-end mb-2">
+          <div class="contacts mt-2 md:mt-0">
+            <div class="phone flex items-center gap-3 justify-center md:justify-end mb-2">
               <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14.5 6.5C15.2372 6.64382 15.9689 6.96892 16.5 7.5C17.0311 8.03108 17.3562 8.76284 17.5 9.5M15 3C16.5315 3.17014 17.9097 3.91107 19 5C20.0903 6.08893 20.8279 7.46869 21 9M20.9995 16.4767V19.1864C21.0037 20.2223 20.0723 21.0873 19.0265 20.9929C10.0001 21 3.00006 13.935 3.00713 4.96919C2.91294 3.92895 3.77364 3.00106 4.80817 3.00009H7.52331C7.96253 2.99577 8.38835 3.151 8.72138 3.43684C9.66819 4.24949 10.2772 7.00777 10.0429 8.10428C9.85994 8.96036 8.99696 9.55929 8.41026 10.1448C9.69864 12.4062 11.5747 14.2785 13.8405 15.5644C14.4272 14.9788 15.0274 14.1176 15.8851 13.935C16.9855 13.7008 19.7615 14.3106 20.5709 15.264C20.858 15.6021 21.0105 16.0337 20.9995 16.4767Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
@@ -27,35 +27,35 @@
                 +7 (996) 356-17-47
               </a>
             </div>
-            <address>г. Волгоград, проспект Маршала Жукова 105а</address>
+            <address class="text-center md:text-right">г. Волгоград, проспект Маршала Жукова 105а</address>
           </div>
         </div>
       </div>
       <nav class="header-menu bg-slate-900 pt-2 pb-2">
         <div class="container mx-auto px-4">
-          <ul class="flex items-center justify-between gap-1">
+          <ul class="flex flex-wrap md:flex-nowrap items-center justify-center md:justify-between gap-3">
             <li>
-              <a href="#what" class="text-white js-anchor">
+              <a href="#what" class="text-white hover:underline js-anchor">
                 Что такое Фулфилмент?
               </a>
             </li>
             <li>
-              <a href="#about" class="text-white js-anchor">
+              <a href="#about" class="text-white hover:underline js-anchor">
                 О нас
               </a>
             </li>
             <li>
-              <a href="#services" class="text-white js-anchor">
+              <a href="#services" class="text-white hover:underline js-anchor">
                 Наши услуги
               </a>
             </li>
             <!-- <li>
-              <a href="#price" class="text-white js-anchor">
+              <a href="#price" class="text-white hover:underline js-anchor">
                 Наши цены
               </a>
             </li> -->
             <li>
-              <a href="#contacts" class="text-white js-anchor">
+              <a href="#contacts" class="text-white hover:underline js-anchor">
                 Контакты
               </a>
             </li>
@@ -70,7 +70,7 @@
         <div class="hero__bg bg-black/60 absolute w-full h-full z-0"></div>
         <div class="container mx-auto px-4 z-10 relative">
           <div class="hero__content pt-40 pb-40 text-center text-white max-w-3xl ml-auto mr-auto">
-            <h1 class="text-6xl font-bold mb-8">
+            <h1 class="text-3xl md:text-6xl font-bold mb-8">
               Услуги <span class="text-teal-400">фулфилмента</span> в Волгограде
             </h1>
             <a href="#contacts" class="js-anchor font-semibold bg-teal-400 pt-2 pb-2 pl-4 pr-4 rounded uppercase text-md inline-block">
@@ -82,24 +82,24 @@
 
       <section id="what" class="mb-12 pt-12 pb-12 bg-slate-900 text-white">
         <div class="container mx-auto px-4">
-          <h2 class="text-4xl font-bold text-center mb-6">Что такое Фулфилмент?</h2>
-          <p class="text-lg text-center mb-12 max-w-2xl mr-auto ml-auto">
+          <h2 class="text-2xl sm:text-4xl font-bold text-center mb-6">Что такое Фулфилмент?</h2>
+          <p class="text-sm sm:text-lg text-center mb-12 max-w-2xl mr-auto ml-auto">
             <strong class="font-semibold">Фулфилмент для маркетплейсов</strong> — это комплексное решение проблем с доставкой и логическим обслуживанием, когда интернет-магазин, поставщик или производитель поручают этот процесс фулфилмент-оператору.
           </p>
           <ul class="flex flex-wrap mt-4 mb-4 gap-4 justify-center">
-            <li class="bg-teal-400 text-white p-4 rounded-3xl text-xl text-center">
+            <li class="bg-teal-400 text-white p-2 md:p-4 rounded-3xl text-sm md:text-xl text-center">
               <span># Складское хранение товаров</span>
             </li>
-            <li class="bg-violet-500 text-white p-4 rounded-3xl text-xl text-center">
+            <li class="bg-violet-500 text-white p-2 md:p-4 rounded-3xl text-sm md:text-xl text-center">
               <span># Приём и обработка заказов</span>
             </li>
-            <li class="bg-amber-500 text-white p-4 rounded-3xl text-xl text-center">
+            <li class="bg-amber-500 text-white p-2 md:p-4 rounded-3xl text-sm md:text-xl text-center">
               <span># Комплектация и упаковка заказов</span>
             </li>
-            <li class="bg-violet-500 text-white p-4 rounded-3xl text-xl text-center">
+            <li class="bg-violet-500 text-white p-2 md:p-4 rounded-3xl text-sm md:text-xl text-center">
               <span># Доставка заказов</span>
             </li>
-            <li class="bg-teal-400 text-white p-4 rounded-3xl text-xl text-center">
+            <li class="bg-teal-400 text-white p-2 md:p-4 rounded-3xl text-sm md:text-xl text-center">
               <span># Работа с возвратами</span>
             </li>
           </ul>
@@ -108,13 +108,13 @@
 
       <section id="about" class="mb-12 mt-12">
         <div class="container mx-auto px-4">
-          <h2 class="text-4xl font-bold text-center mb-10 text-violet-500">О нас</h2>
-          <div class="flex gap-8 mb-8 items-center">
-            <div class="about__image">
-              <img src="assets/images/about.jpg" class="max-w-lg rounded-3xl" alt="">
+          <h2 class="text-2xl sm:text-4xl font-bold text-center mb-10 text-violet-500">О нас</h2>
+          <div class="flex flex-wrap md:flex-nowrap gap-8 mb-8 items-center">
+            <div class="about__image w-full md:w-1/2">
+              <img src="assets/images/about.jpg" class="w-full rounded-3xl" alt="">
             </div>
-            <div class="about__text">
-              <ul class="list-disc text-lg pl-4">
+            <div class="about__text w-full md:w-1/2">
+              <ul class="list-disc text-md pl-4">
                 <li class="mb-2">Наша <span class="font-semibold">команда</span> состоит из опытных квалифицированных профессионалов отлично понимающих цели и задачи стоящие перед нами.</li>
                 <li class="mb-2">Мы работаем на этом рынке уже <span class="font-semibold">более 10 лет</span>.</li>
                 <li class="mb-2">Сотрудничая с нами вы получаете <span class="font-semibold">качественные услуги и сервис</span>.</li>
@@ -123,17 +123,17 @@
               </ul>
             </div>
           </div>
-          <div class="flex gap-8 items-center">
-            <div class="about__text">
-              <ul class="list-disc text-lg">
+          <div class="flex flex-wrap md:flex-nowrap flex-col-reverse md:flex-row gap-8 items-center">
+            <div class="about__text w-full md:w-1/2">
+              <ul class="list-disc text-md pl-4 md:pl-0">
                 <li class="mb-2">Удобное <span class="font-semibold">управление ассортиментом</span>.</li>
                 <li class="mb-2">Отсутствие платы за <span class="font-semibold">хранение и приём товара на складе</span> маркетплейса.</li>
                 <li class="mb-2"><span class="font-semibold">Низкая комиссия магазина</span> (по сравнению с FBO комиссия снижается в 3 раза – с 15% до 5%, если не ниже).</li>
                 <li>Возможность выбрать <span class="font-semibold">оптимальный способ доставки</span> – как через логистические (службы самого маркетплейса), так и через сторонние службы доставки.</li>
               </ul>
             </div>
-            <div class="about__image">
-              <img src="assets/images/about2.jpg" class="max-w-lg rounded-3xl" alt="">
+            <div class="about__image w-full md:w-1/2">
+              <img src="assets/images/about2.jpg" class="w-full rounded-3xl" alt="">
             </div>
           </div>
         </div>
@@ -141,34 +141,34 @@
 
       <section id="services" class="mb-12 mt-14">
         <div class="container mx-auto px-4">
-          <h2 class="text-4xl font-bold text-center mb-8 text-violet-500">Что может входить в услуги фулфилмента:</h2>
-          <ul class="text-xl max-w-4xl ml-auto mr-auto divide-y divide-dashed">
+          <h2 class="text-2xl sm:text-4xl font-bold text-center mb-8 text-violet-500">Что может входить в услуги фулфилмента:</h2>
+          <ul class="text-md md:text-xl max-w-4xl ml-auto mr-auto divide-y divide-dashed">
             <li class="mb-3 mt-3 flex items-center gap-6">
-              <strong class="text-4xl text-teal-400">01.</strong>
+              <strong class="text-2xl sm:text-4xl text-teal-400">01.</strong>
               <div><span class="font-semibold">Заказ/резервирование товара</span> у вашего поставщика/ производителя</div>
             </li>
             <li class="mb-3 mt-3 pt-3 flex items-center gap-6">
-              <strong class="text-4xl text-teal-400">02.</strong>
+              <strong class="text-2xl sm:text-4xl text-teal-400">02.</strong>
               <div><span class="font-semibold">Комплектация, упаковка, передача посылок</span> на доставку (своей службе доставки или аутсорсинговой, в зависимости от чего варьируются и тарифы компании фулфилмента для маркетплейсов)</div>
             </li>
             <li class="mb-3 mt-3 pt-3 flex items-center gap-6">
-              <strong class="text-4xl text-teal-400">03.</strong>
+              <strong class="text-2xl sm:text-4xl text-teal-400">03.</strong>
               <div><span class="font-semibold">Прием, хранение товара, складской учет</span> (в том числе с контролем качества)</div>
             </li>
             <li class="mb-3 mt-3 pt-3 flex items-center gap-6">
-              <strong class="text-4xl text-teal-400">04.</strong>
+              <strong class="text-2xl sm:text-4xl text-teal-400">04.</strong>
               <div><span class="font-semibold">Получение, обработка заявок</span> и заказов</div>
             </li>
             <li class="mb-3 mt-3 pt-3 flex items-center gap-6">
-              <strong class="text-4xl text-teal-400">05.</strong>
+              <strong class="text-2xl sm:text-4xl text-teal-400">05.</strong>
               <div><span class="font-semibold">Сопровождение грузов</span> до получения</div>
             </li>
             <li class="mb-3 mt-3 pt-3 flex items-center gap-6">
-              <strong class="text-4xl text-teal-400">06.</strong>
+              <strong class="text-2xl sm:text-4xl text-teal-400">06.</strong>
               <div><span class="font-semibold">Доставка грузов</span> (как от вашего поставщика или интернет-магазина на склад маркетплейса, так и вашему покупателю)</div>
             </li>
           </ul>
-          <p class="mt-8 bg-slate-900 rounded-3xl p-6 text-white text-xl text-center font-semibold">
+          <p class="mt-8 bg-slate-900 rounded-3xl p-6 text-white text-md md:text-xl text-center font-semibold">
             Передача заказов на доставку оператору может проводиться вручную, но оптимальный вариант — <span class="text-teal-400">сотрудничество по API</span>
           </p>
           <p class="max-w-4xl text-center ml-auto mr-auto mt-6 italic text-sm">
@@ -189,22 +189,22 @@
       </section> -->
 
       <section id="contacts" class="mt-12 bg-slate-900 text-white">
-        <div class="container mx-auto pt-10 pb-10">
-          <h2 class="text-4xl font-bold text-center mb-2">Контакты</h2>
+        <div class="container mx-auto px-4 pt-10 pb-10">
+          <h2 class="text-2xl sm:text-4xl font-bold text-center mb-2">Контакты</h2>
           <p class="text-center text-lg mb-4">Есть вопросы? Нужна помощь? Позвоните нам!</p>
           <div class="text-center mb-6">
-            <a href="tel:+79963561747" class="text-4xl font-semibold">
+            <a href="tel:+79963561747" class="text-2xl sm:text-4xl font-semibold">
               +7 (996) 356-17-47
             </a>
           </div>
-          <div class="address__info flex justify-between items-center gap-6">
-            <div>
+          <div class="address__info flex flex-col sm:flex-row justify-center sm:justify-between gap-6">
+            <div class="text-center sm:text-left">
               <strong class="text-xl block font-semibold text-teal-400">Адрес склада фулфилмент:</strong>
-              <address class="text-2xl">г. Волгоград,<br>проспект Маршала Жукова 105а</address>
+              <address class="text-xl md:text-2xl">г. Волгоград,<br>проспект Маршала Жукова 105а</address>
             </div>
-            <div class="text-right">
-              <strong class="text-xl block mt-4 font-semibold text-teal-400">Часы работы:</strong>
-              <div class="text-2xl">
+            <div class="text-center sm:text-right">
+              <strong class="text-xl block mt-4 sm:mt-0 font-semibold text-teal-400">Часы работы:</strong>
+              <div class="text-xl md:text-2xl">
                 Пн-Сб: 10:00 - 21:00<br>Вс: выходной
               </div>
             </div>
@@ -215,7 +215,7 @@
     </main>
 
     <footer class="footer bg-slate-900 text-white pt-10 pb-4">
-      <div class="container mx-auto px-4 gap-4 flex flex-wrap justify-between">
+      <div class="container mx-auto px-4 gap-4 flex flex-wrap justify-center sm:justify-between">
         <a href="/john-landing/" class="logo uppercase font-bold text-2xl">
           Фулфилмент
         </a>
@@ -233,7 +233,7 @@
         </p>
       </div>
       <div class="developer">
-        <div class="container mx-auto px-4 text-right mt-4 text-sm">
+        <div class="container mx-auto px-4 text-center sm:text-right mt-6 text-sm">
           Разработка сайтов: <a href="https://t.me/dmityabo" class="text-teal-400" target="_blank">Dmitya Bo</a>
         </div>
       </div>
